@@ -1,0 +1,14 @@
+def sum_of_list(list1):
+    """
+    This function calculates the sum of all elements in a list.
+    For example: sum_of_list([1, 2, 3, 4, 5]) will return 15.
+    """
+    sum = 0
+    for item in list1:
+        sum += item
+    return sum
+
+# Example usage
+my_list = [1, 2, 3, 4, 5]
+total_sum = sum_of_list(my_list)
+print(f"The sum of all elements in the list is: {total_sum}")
